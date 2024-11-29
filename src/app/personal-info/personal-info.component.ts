@@ -12,5 +12,8 @@ export class PersonalInfoComponent {
   profession: string = 'Web Developer';
   contactNo: string = '09695674925';
   email: string = 'tanglaoalmina11@gmail.com';
+  birthday: string = 'October 11, 2003';
+  age: string = '21 years old';
+  gender: string = 'Female';
 
 }
