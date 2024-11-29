@@ -1,0 +1,32 @@
+<section class="section gray-bg" id="resume">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="section-title">
+                            <h2>Educational Background</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-6 m-15px-tb">
+                        <div class="resume-box">
+@for (item of education; track $index) {
+                            <ul>
+                                <li>
+                                    <div class="icon">
+                                        <i class="fas fa-user-graduate"></i>
+                                    </div>
+                                    <h4>{{ item.school }}</h4>
+                                    <p><em>{{ item.level }}</em></p>
+                                    <h5>{{ item.year}}</h5>
+                                    <p> {{ item.address }}</p>
+                                </li>
+                            </ul>
+                            }
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+

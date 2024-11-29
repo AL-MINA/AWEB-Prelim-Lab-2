@@ -1,0 +1,24 @@
+    <div class="container mt-5">
+        <div class="profile-info-container p-4 border rounded shadow-sm">
+            <!-- Top Section (Name & Image) -->
+            <div class="top-container row align-items-center">
+                <div class="name-container col-md-8">
+                    <h1 class="display-4">{{ fullName }}</h1>
+                </div>
+                <div class="image-container col-md-4 text-center">
+                    <img src="2x2.png" alt="Profile Image" class="img-fluid rounded-circle">
+                </div>
+            </div>
+
+            <!-- Profession Section -->
+            <div class="profession-container mt-4">
+                <h2 class="text-muted">{{ profession }}</h2>
+            </div>
+
+            <!-- Contact Information -->
+            <div class="contact-container mt-3">
+                <p class="mb-1"><strong>Contact No:</strong> {{ contactNo }}</p>
+                <p><strong>Email:</strong> {{ email }}</p>
+            </div>
+        </div>
+    </div>
